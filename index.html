@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <img src="iert logo.png" alt="College Logo" class="college-logo"> 
+            <h1 class="college-name">INSTITUTE OF ENGINEERING AND RURAL TECHNOLOGY </h1> 
+    </header>
+   <!-- Main Content Section with Background Image -->
+    <div class="form-container">
+        <form action="register.php" method="POST">
+            <div class="form-row">
+                <label for="student_name">Student's Name:</label>
+                <input type="text" id="student_name" name="student_name" required>
+                
+                <label for="date_of_birth">Date of Birth:</label>
+                <input type="date" id="date_of_birth" name="date_of_birth" required>
+            </div>
+             <div class="form-row">
+                <label for="father_name">Father's Name:</label>
+                <input type="text" id="father_name" name="father_name" required>
+                
+                <label for="mother_name">Mother's Name:</label>
+                <input type="text" id="mother_name" name="mother_name" required>
+            </div>
+             <div class="form-row">
+                <label for="aadhaar_number">Aadhaar Number:</label>
+                <input type="text" id="aadhaar_number" name="aadhaar_number" maxlength="12" required>
+                 <label for="mobile_number">Mobile Number:</label>
+                <input type="text" id="mobile_number" name="mobile_number" maxlength="10" required>
+            </div>
+             <div class="form-row">
+                <label for="permanent_address">Permanent Address:</label>
+                <textarea id="permanent_address" name="permanent_address" required></textarea>
+                 <label for="mailing_address">Mailing Address:</label>
+                <textarea id="mailing_address" name="mailing_address" required></textarea>
+            </div>
+             <div class="form-row">
+                <label for="jee_roll_number">JEE Roll Number:</label>
+                <input type="text" id="jee_roll_number" name="jee_roll_number" required>
+               <label for="uptech_rank">UP Tech Rank:</label>
+                <input type="text" id="uptech_rank" name="uptech_rank" required>
+            </div>
+            <div class="form-row full-width">
+                <label for="category">Category:</label>
+                <select id="category" name="category" required>
+                    <option value="General">General</option>
+                    <option value="ST">ST</option>
+                    <option value="SC">SC</option>
+                    <option value="OBC">OBC</option>
+                    <option value="PH">PH</option>
+                    <option value="FW">FW</option>
+                    <option value="Armed Forces">Armed Forces</option>
+                </select>
+            </div>
+            <button type="submit" class="register-button">Register</button>
+        </form>
+    </div>
+     <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 IERT ALLAHABAD . All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
