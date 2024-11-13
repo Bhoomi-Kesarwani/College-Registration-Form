@@ -1,0 +1,105 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;}
+/* Header Styles */
+header {
+    background: rgb(13, 73, 23);
+    color: #fff;
+    padding: 10px 0;
+    position: relative;}
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    /* Space between logo and college name */}
+.college-logo {
+    width: 50px;
+    /* Set logo size */
+    height: auto;
+}
+.college-name {
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;}
+/* Main Content Section with Background Image */
+.form-container {
+    background: url('iert2.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 10px 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;}
+/* Form Styling */
+form {
+    background: rgba(2, 31, 12, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);}
+form label {
+    font-size: 14px;
+    margin: 10px 0 5px;
+    color: #ddd;}
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #080808;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: #ece8e8;}
+/* Styling for Rows with Two Inputs */
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+.form-row label,
+.form-row input,
+.form-row select,
+.form-row textarea {
+    width: 100%;
+}
+.form-row textarea {
+    resize: none;
+}
+.full-width {
+    flex-direction: column;
+}
+/* Styling for Register Button */
+form .register-button {
+    background-color: #11c8e9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;}
+form .register-button:hover {
+    background-color: #af0808;
+}
+/* Footer Styles */
+footer {
+    background: rgb(13, 73, 23);
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    position: relative;}
+footer p {
+    margin: 0;
+    font-size: 14px;}
